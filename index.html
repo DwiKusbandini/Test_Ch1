@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- style ini ada disini klo pke type css yg internal atau 1 file yg sama dan harus ditaro du head sebelum html yg lain -->
+        <style>
+            /* ini mau dibuat garis untuk table */
+            table, th, td {
+                border: 1px solid black;
+            }
+        </style>
+        <title> Test</title>
+    </head>
+    <body>
+        <!-- hi adalah header -->
+        <h1>Hello  World!</h1>
+        <!-- p adalah paragraf -->
+        <p>Ini paragraf 1</p>
+        <p>Ini paragraf 2</p>
+        <!-- hr adalah garis horizontal -->
+        <hr>Ini baris 1</hr>
+        <!-- br adalah break untuk newline atau enter ke baris kedua -->
+        <br>ini baris 2</br>
+
+        <hr>
+        <!-- b adalah bold untuk menebalkan teks -->
+        <p><b>Ini adalah teks yang di bold</b></p>
+        <!-- i adalah italic untuk memiringkan teks -->
+        <p><i>Ini adalah teks yang di italic</i></p>
+        <p><b><i>Ini adalah teks yang di bold dan di italic</i></b></p>
+        <p>Ini adalah Teks yang <b>bold sebagian</b></p>
+        <!-- sub adalah untuk tulisan kimia ke bawah dan sup untuk tulisan kimia ke atas -->
+        <p>Ini<sub> ke bawah</sub> dan <sup>ke atas</sup></p>
+        </hr>
+        <p>SILAKAN UNTUK MELIHAT KE https://www.w3shools.com JIKA LUPA RUMUS HTML</p>
+        
+        <!-- klo mau bikin list bulet-bulet -->
+        <!-- klo h2 adalah header yang kedua karena mau ukuran header yang berbeda  -->
+        <h2>Daftar Belanjar ke Pasar</h2>
+        <!-- ul adalah unordered list yaitu list tanpa nomer urutan -->
+        <ul>
+            <li>Sayur Kangkung</li>
+            <li>Cabe-cabean</li>
+            <li>Bawang-bawangan</li>
+            <li>Tempe</li>
+        </ul>
+
+        <h2>List Buah</h2>
+        <!-- boleh ganti jadi kotak dgn menambahkan type="square" -->
+        <ul type="square">
+            <li>Jeruk</li>
+            <li>Jambu</li>
+            <li>Mangga</li>
+        </ul>
+
+        <h2>List Hewan</h2>
+        <!-- circle untuk list bulatan kosong -->
+        <ul type="circle">
+            <li>Kucing</li>
+            <li>Anjing</li>
+            <li>Marmut</li>
+        </ul>
+
+        <h2>List Nama Bias</h2>
+        <!-- disc itu sama kya yg pertama jd tdk perlu ditulis type gpp sedangkan type="none" tdk ada bentuk listnya -->
+        <ul type="disc">
+            <li>Zayyan</li>
+            <li>Hyunsik</li>
+            <li>Sing</li>
+            <li>Leo</li>
+        </ul>
+
+        <h2>Boy Band Kpop</h2>
+        <!-- ol adalah order list yaitu list dengan urutan -->
+        <!-- bisa tambahin type="1"/"a"/"A"/"i"/"I" terserah saja tp penulisan type sama seperti di unordered list -->
+        <ol>
+            <li>Super Junior</li>
+            <li>Xodiac</li>
+            <li>Treasure</li>
+        </ol>
+        
+        <!-- table untuk buat table -->
+        <table>
+            <!-- tr adalah tabel row. harus ada jika buat table untuk defant baris -->
+            <tr>
+                <!-- th adalah table head yaitu kepala table agar bisa tebal dan di tengah-->
+                <th>Nama</th>
+                <th>Umur</th>
+                <th>Tinggi Badan</th>
+            </tr>
+            <tr>
+                <!-- td adalah table data atau isian table -->
+                <td>Dwi Kusbandini</td>
+                <td>27</td>
+                <td>151</td>
+            </tr>
+            <tr>
+                <td>Won Hyunsik</td>
+                <td>26</td>
+                <td>167</td>
+            </tr>
+        </table>
+
+        <p>Contoh table bagian bawah digabung ke samping sebagai berikut:</p>
+        <table>
+            <tr>
+                <th>Asal</th>
+                <th>Domisili</th>
+            </tr>
+            <tr>
+                <!-- colspan adalah colom span untuk kolom yg mau dimarge atau digabung -->
+                 <!-- 2 adalah jumlah kolom yang mau di merge karena disini 2 berarti 2 kolom yg di merge -->
+                <td colspan="2">
+                    <!-- center adalah tulisannya mau di tengahin -->
+                    <center>Jakarta</center>
+                </td>
+            </tr>
+        </table>
+
+        <p>Ini klo mau buat table yg digabung ke bawah</p>
+        <table>
+            <tr>
+                <!-- rowspan adalah bagia row atau atas bawah yang mau dimerge -->
+                <!-- ini yg di rowspan dobagian kepala kolom yg kesamping -->
+                <th rowspan="2">Jakarta</th>
+                <td>-A-</td>
+                <td>-B-</td>
+            </tr>
+            <tr>
+                <td>-C-</td>
+                <td>-D-</td>
+            </tr>
+        </table>
+
+        <p>Cara Memasukkan Gambar</p>
+        <!-- alt adalah alat perangkat, widht adalah lebar, dan height adalah tinggi -->
+        <img src="img/cat.png" alt="Ini Kucing">
+        <img src="tiger.svg" alt="Ini macan" width="200" height="200"/>
+        <img src="url_from_wrb jpeg" alt="Ini gambar dari Web" width="200" height="200"/>
+
+        <p>contoh:</p>
+        <!-- ini klo mau ambil gambar dari website langsung -->
+        <img src="https://www.mongabay.co.id/wp-content/uploads/2023/06/kucing-rumahan-unsplash.jpeg" alt="Ini kucing" width="300" height="200" />
+
+        <p>Ini mau buat absolute link</p>
+        <a href="https://www.google.com/webhp?hl=id&sa=X&ved=0ahUKEwj2vpnw0b2HAxWM2jgGHXjeD-sQPAgJ">
+            Google
+        </a>
+    </body>
+</html>
